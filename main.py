@@ -35,7 +35,7 @@ async def on_command_error(ctx, error):
     if isinstance(error, commands.MissingRequiredArgument):
         await ctx.send(":warning: 저에게 더 많은 정보를 주세요...")
     if isinstance(error, commands.errors.CommandNotFound):
-        await ctx.send(":warning: 제가 알수 없는 명령어에요...")
+        await ctx.send(":warning: 제가 모르는 명령어에요...")
 '''
 
 #run
