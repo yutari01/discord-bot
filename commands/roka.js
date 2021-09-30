@@ -1,6 +1,5 @@
 const { SlashCommandBuilder } = require('@discordjs/builders');
-const ROKA_END_DATE = new Date("2023-02-01");
-
+const ROKA_END_DATE = new Date(2023, 1, 1, 0, 0, 0, 0);
 
 function getTime() {
 	const CURRENT_DATE = new Date();
