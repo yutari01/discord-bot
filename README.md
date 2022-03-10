@@ -1,2 +1,3 @@
 # DiscordBot
 DiscordBot with JS
+군대에서 개발 중...
